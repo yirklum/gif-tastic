@@ -20,6 +20,7 @@ $(document).ready(function() {
             // Create and add class and content to buttons
             var animalButton = $("<button>");
             animalButton.addClass("animal-button");
+            animalButton.addClass("btn btn success");
             animalButton.attr("data-name", topics[i]);
             animalButton.text(topics[i]);
             $("#button-section").append(animalButton);
@@ -63,9 +64,9 @@ $(document).ready(function() {
                 animalGifs.append(gifRating);
 
                 var animalImage = $("<img>");
-                animalImage.attr("src", results[i].images.fixed_height_small_still.url);
-                animalImage.attr("data-still",results[i].images.fixed_height_small_still.url);
-                animalImage.attr("data-animate",results[i].images.fixed_height_small.url);
+                animalImage.attr("src", results[i].images.fixed_height_still.url);
+                animalImage.attr("data-still",results[i].images.fixed_height_still.url);
+                animalImage.attr("data-animate",results[i].images.fixed_height.url);
                 animalImage.attr("data-state", "still");
                 animalImage.addClass("animal-image");
                 animalGifs.append(animalImage);

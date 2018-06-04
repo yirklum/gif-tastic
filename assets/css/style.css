@@ -1,0 +1,56 @@
+.container {
+
+}
+
+#button section {
+
+}
+
+#gif-section {
+
+}
+
+#gif-form {
+
+}
+
+#submit-button {
+
+}
+
+.animal-button {
+   background-color: green;
+   color: white;
+   margin: 5px;
+}
+
+.animal-image {
+    float: left;
+}
+
+.ratings {
+    float: left;
+}
+
+.buttons {
+    margin: 15px;
+}
+
+.gifs > div {
+    padding: 15px;
+    display: inline-block;
+}
+
+.jumbotron {
+    background-image: url("../images/animal-collage.jpeg");
+    background-size: cover;
+    height: 625px;
+}
+
+header {
+    color: white;
+    position: absolute;
+    left: 350px;
+    top: 260px;
+    text-align: center;
+}
