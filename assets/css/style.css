@@ -1,25 +1,29 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 .container {
-
+    font-family: 'Cabin Sketch', cursive;
+    margin: 0 auto;
 }
 
-#button section {
-
-}
-
-#gif-section {
-
+#gifSection {
+    min-height: 100px;
+    margin-bottom: 75px;
 }
 
 #gif-form {
-
+    margin: 15px;
 }
 
 #submit-button {
-
+    background-color: #b380d0;
+    color: white;
 }
 
 .animal-button {
-   background-color: green;
+   background-color: black;
    color: white;
    margin: 5px;
 }
@@ -47,10 +51,41 @@
     height: 625px;
 }
 
+.card-header {
+    background-color: #b380d0;
+    color: white;
+}
+
 header {
     color: white;
     position: absolute;
-    left: 350px;
+    left: 375px;
     top: 260px;
     text-align: center;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    background-color: #b380d0;
+    margin-top: 25px;
+    width: 100%;
+    color: white;
+    border-top: solid 1px grey;
+}
+
+.card {
+    background-color: #dddddd;
+    margin-bottom: 15px;
+}
+
+#copyright {
+    margin-left: 45%;
+}
+
+#directions {
+    color: #b380d0;
 }

@@ -20,7 +20,7 @@ $(document).ready(function() {
             // Create and add class and content to buttons
             var animalButton = $("<button>");
             animalButton.addClass("animal-button");
-            animalButton.addClass("btn btn success");
+            animalButton.addClass("btn btn primary");
             animalButton.attr("data-name", topics[i]);
             animalButton.text(topics[i]);
             $("#button-section").append(animalButton);
