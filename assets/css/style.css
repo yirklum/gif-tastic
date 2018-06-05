@@ -60,8 +60,12 @@ header {
     color: white;
     position: absolute;
     left: 375px;
-    top: 260px;
+    top: 240px;
     text-align: center;
+    background-color: black;
+    height: 150px;
+    padding-top: 15px;
+    padding-left: 15px;
 }
 
 .footer {
